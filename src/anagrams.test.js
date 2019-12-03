@@ -9,4 +9,13 @@ describe("isAnagram - basic functionality", () => {
     const actual = isAnagram("listen", "silent");
     expect(actual).to.equal(expected);
   });
+
+  // "elbows" "below"
+  it("returns false when either of the string has extra letters", () => {
+    const expected = false;
+    const actual = isAnagram("elbows", "below");
+    expect(actual).to.equal(expected);
+    const actual2 = isAnagram("below", "elbows");
+    expect(actual2).to.equal(expected);
+  });
 });

@@ -18,7 +18,7 @@
     "@babel/preset-env": "^7.7.4",
     "@babel/register": "^7.7.4",
     "chai": "^4.2.0",
-    "mocha": "^6.2.2",
+    "mocha": "^10.2.0",
     "regenerator-runtime": "^0.13.3",
     "supertest": "^4.0.2"
   }
